@@ -1,0 +1,103 @@
+ html, body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;  
+  }
+
+body {
+  background-color: rgb(165 180 252); 
+}
+
+  .container{
+    text-align: right;
+    margin-right: 6px;
+   
+  }
+
+.about-picture {
+  display: block;
+  text-align: center;
+  
+}
+  
+  .nav-button{
+    padding: 6px 7px;
+    border: none;
+    cursor: pointer;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bold;
+    background: rgba(51, 170, 51, 0);
+  }
+
+/*.button-home:hover{
+    font-size: 5rem;
+  }
+  .button-services:hover{
+    font-size: 1.2rem;
+  }
+  .button-gallery:hover{
+    font-size: 1.2rem;
+  }
+  .button-contact:hover{
+    font-size: 1.2rem;
+  }
+  .button-about:hover{
+    font-size: 1.2rem;
+  } */
+
+  .nav-button:hover, .nav-button:active{
+    color: rgba(001,124,255,.5);
+  }
+
+
+  a {
+    border: none;
+    text-decoration: none;
+  }
+
+.about-container {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.about-info {
+  padding: 0px 60px;
+  font-size: 1.4rem;
+}
+
+
+
+
+/* Media queries 
+
+*/
+
+@media screen and (max-width: 1200px){
+  .car-image2 {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .car-image2 {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .car-image2 {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 200px){
+  .car-image2{
+   display: none;
+  }
+}

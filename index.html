@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Britton's Website</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="video-wrapper">
+        <video autoplay muted loop id="myVideo">
+            <source src="images/car-video.mp4" type="video/mp4">
+        </video>
+        <header>
+
+            <div class="container">
+
+                <a class="button-home" href="index.html">
+                    <button class="nav-button">Home</button>
+                </a>
+
+                <a class="button-services">
+                    <button data-service-button class="nav-button">Services</button>
+                </a>
+
+                <a class="button-gallery" href="gallery.html">
+                    <button class="nav-button">Gallery</button>
+                </a>
+
+                <a class="button-contact">
+                    <button data-contact-button class="nav-button">Contact</button>
+                </a>
+
+                <a class="button-about" href="about.html">
+                    <button class="nav-button">About</button>
+                </a>
+
+            </div>
+
+        </header>
+        <main>
+
+            <div class="home" id="main">
+                <div class="container">
+                    <div class="title-container">
+                        <h1 class="title">Gary's Tint Shop</h1>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </main>
+        <section data-service-section class="services-section">
+            <div class="services-container">
+                <div class="services-column-one">
+                    <h2 class="service-title">Automotive tint services</h2>
+                    <img src="images/car-image.jpg" class="car-image" width="200px">
+                </div>
+                <div class="services-column-two">
+                    <p>Here's what we tint</p>
+                    <ul>
+                        <li>Sedans</li>
+                        <li>Vans</li>
+                        <li>Trucks</li>
+                    </ul>
+                    <p>
+                        Vehicle tint is normally installed
+                        for a few reasons depending on your
+                        circumstance and personal preference.
+                    </p>
+                    <a class="read-more-button" href="why-tint">
+                        <button>Read More</button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section data-contact-section class="contact-section">
+            <div class="contact-container">
+
+                <h2 class="contact-us-title">Contact Us</h2>
+                <div class="form-container">
+                    <form action="" id="contact-form">
+                        <div class="form-div">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-div">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-div">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-div">
+                            <textarea id="text-area-input" name="text-area" placeholder="Write Text Here..."></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

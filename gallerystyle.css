@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(200 180 252); 
+}
+
+.car-image {
+  height: 300px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav-button{
+  padding: 6px 7px;
+  border: none;
+  cursor: pointer;
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
+  background: rgba(51, 170, 51, 0);
+  }
+
+.nav-button:hover {
+  color: rgba(001,124,255,.5)
+  }
+
+a {
+  border: none;
+  text-decoration: none;
+}
+
+.container{
+  text-align: right;
+  margin-right: 6px;
+}
+
+.gallery-container {
+  text-align: center;
+}
+
+@media screen and (max-width: 400px){
+  .car-image{
+  width: 100px;
+  height: 50px;
+  }
+}
