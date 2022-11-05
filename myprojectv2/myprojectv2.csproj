@@ -6,17 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="project v2\.cache\replit\nix\env.json" />
-    <Content Include="project v2\.config\configstore\update-notifier-npm.json" />
-    <Content Include="project v2\.vs\VSWorkspaceState.json" />
+    <Content Include=".cache\replit\nix\env.json" />
+    <Content Include=".config\configstore\update-notifier-npm.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="project v2\.config\configstore\update-notifier-npm.json.2701252402" />
-    <None Include="project v2\.vs\project v2\config\applicationhost.config" />
-    <None Include="project v2\.vs\project v2\v16\TestStore\0\000.testlog" />
-    <None Include="project v2\.vs\project v2\v16\TestStore\0\testlog.manifest" />
-    <None Include="project v2\.vs\slnx.sqlite" />
+    <None Include=".config\configstore\update-notifier-npm.json.2701252402" />
   </ItemGroup>
 
 </Project>
