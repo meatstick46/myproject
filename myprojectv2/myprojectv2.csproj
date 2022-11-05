@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="project v2\.cache\replit\nix\env.json" />
+    <Content Include="project v2\.config\configstore\update-notifier-npm.json" />
+    <Content Include="project v2\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="project v2\.config\configstore\update-notifier-npm.json.2701252402" />
+    <None Include="project v2\.vs\project v2\config\applicationhost.config" />
+    <None Include="project v2\.vs\project v2\v16\TestStore\0\000.testlog" />
+    <None Include="project v2\.vs\project v2\v16\TestStore\0\testlog.manifest" />
+    <None Include="project v2\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+</Project>
